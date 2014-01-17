@@ -5,3 +5,5 @@ npm-debug*
 *.sw[mnop]
 *.py?
 *.log
+
+.vim/.netrwhist
