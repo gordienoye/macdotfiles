@@ -1,0 +1,12 @@
+[submodule ".vim/vim-pathogen"]
+	path = .vim/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule ".vim/bundle/vim-javascript-syntax"]
+	path = .vim/bundle/vim-javascript-syntax
+	url = git@github.com:jelera/vim-javascript-syntax.git
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = git@github.com:Lokaltog/powerline.git
