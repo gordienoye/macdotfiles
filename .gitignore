@@ -1,2 +1,7 @@
-.*.sw[nmop]
-.vim/.netrwhist
+*node_modules*
+.DS_Store
+npm-debug*
+
+*.sw[mnop]
+*.py?
+*.log
