@@ -58,6 +58,7 @@ set grepprg=ack
 highlight OverLength ctermbg=red ctermfg=red guibg=#592929
 match OverLength /\%81v.\+/
 
+autocmd BufRead,BufNewFile *.json set filetype=json
 autocmd BufWritePre *.js :%s/\s\+$//e
 
 map <F3> :grep <C-R><C-W><CR><CR>
@@ -68,3 +69,6 @@ set t_Co=256
 colorscheme Tomorrow-Night
 
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
