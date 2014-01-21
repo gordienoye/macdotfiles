@@ -15,7 +15,7 @@ Things to remember to do:
 
 Install homebrew and a couple of necessary things:
 - http://brew.sh/
-  - `brew install coreutils git python`
+  - `brew install coreutils git ack python`
   - `brew install vim --with-python --with-ruby --with-perl`
     - note that vim should be done after python for the correct bindings
 
