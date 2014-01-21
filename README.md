@@ -27,9 +27,13 @@ Powerline demands the following:
   - Update iTerm2 font to be Inconsolata 14pt for Regular and Non-ASCII font.
 
 Pathogen (https://github.com/tpope/vim-pathogen) is installed by default and the following bundles are added
-- syntastic: https://github.com/scrooloose/syntastic
+- ack.vim: https://github.com/mileszs/ack.vim
 - powerline: https://github.com/Lokaltog/powerline
+- supertab: https://github.com/ervandew/supertab
+- syntastic: https://github.com/scrooloose/syntastic
+- vim-gitgutter: https://github.com/airblade/vim-gitgutter
 - vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
+- vim-json: https://github.com/elzr/vim-json
 
 syntastic needs to have JSHint installed.
 - `npm install -g jshint`
