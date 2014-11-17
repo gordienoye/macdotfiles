@@ -58,11 +58,11 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 if [ -f ~/.bash_git_prompt ]; then
-    . .bash_git_prompt
+    . ~/.bash_git_prompt
 fi
 
 if [ -f ~/.bash_git_cmd ]; then
-    . .bash_git_cmd
+    . ~/.bash_git_cmd
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -87,4 +87,4 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=./node_modules/.bin:$PATH
 
 export REPOS_HOME=~/repositories
-VAGRANT_CWD=$REPOS_HOME/vagrant
+export VAGRANT_CWD=$REPOS_HOME/vagrant
