@@ -65,6 +65,10 @@ if [ -f ~/.bash_git_cmd ]; then
     . ~/.bash_git_cmd
 fi
 
+if [ -f ~/.bash_git_completion ]; then
+    . ~/.bash_git_completion
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
